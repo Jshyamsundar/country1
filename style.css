@@ -10,7 +10,7 @@ body{
     background-attachment: fixed;
 }
 .mainContainer{
-    width: 400px;
+    width: 400px !important;
     margin: 15vh auto 0 auto;
     background-color:#d9d9d9;
     border-radius: 10px;
@@ -64,7 +64,7 @@ button{
 #number{
     margin-left: 59px;
     height: 40px;
-    width: 84%;
+    width: 82%;
     /* border-radius:0 !important; */
     /* border: 1px solid gray !important; */
 } 
