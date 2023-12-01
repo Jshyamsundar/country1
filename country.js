@@ -23,6 +23,9 @@ function validatInputs() {
     if (numberVal==='') {
         setError(number,"enter mobile number");
     }
+    else if(numberVal.length!==10){
+        setError(number,"plaese give 10 digit numbers");
+    }
     else {
         setSuccess(number);
     }
